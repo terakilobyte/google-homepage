@@ -1,0 +1,172 @@
+/**
+ *  CSS stylesheet for google imitation homepage
+ */
+
+#login {
+  float: right;
+  display: inline;
+  text-align: center;
+  margin: .4em 1.3em 0em .5em;
+}
+.login {
+  display: inline-block;
+  float: right;
+  padding:5px;
+  background-color: #4683EB;
+  border-radius: 2px;
+  color: #FFFFFF;
+  text-decoration:none;
+  width: 60px;
+  height: 20px;
+  font-family: Sans-serif;
+  font-size: .8em;
+  vertical-align: center;
+}
+
+
+#header {
+  float: right;
+  font-size: .9em;
+  padding-top:.9em;
+  font-family: Sans-serif;
+  font-size: .8em;
+}
+
+
+#header a.hover {
+  text-decoration: underline;
+}
+
+#header a {
+  text-decoration: none;
+  color: #000000
+}
+
+
+
+#header p {
+  display: inline;
+  margin: .5em;
+}
+
+
+#apps {
+  display: inline;
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin-top:.7em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+
+#apps td {
+  height: 2px;
+  width: 2px;
+  background-color: #737373;
+  padding: 1px;
+
+}
+.logo {
+  padding: 10em 0em 0em 0em;
+}
+
+#logo {
+  margin: auto;
+  display: block;
+  width:20%;
+  height: auto;
+}
+
+input[type=text] {
+  display: block;
+  width: 558px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #FFFFFF url(img/microphone.gif) no-repeat 554px 5px;
+
+}
+
+#searchbox {
+  margin-top: 2em;
+  height: 100%;
+}
+
+input[type=text]:hover {
+  border: 1px solid #999;
+}
+
+input[type=text]:focus {
+  border: 1px solid #82BBF5;
+  outline: none;
+}
+
+input[type=text]:blur {
+  border: 1px solid #CCCCCC;
+}
+
+#buttons {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.button {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #444;
+
+  display: inline-block;
+  padding: 7px 9px;
+  margin-right: 10px;
+
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  text-align: center;
+
+  background-color: #EEEEEE;
+}
+
+#footer {
+  background-color: #EEEEEE;
+  border-top: 1px #dddddd solid;
+  height: 40px;
+  width: 100%;
+  left:0;
+  bottom:0;
+  position:fixed;
+  z-index:150;
+  _position:absolute;
+  _top:expression(eval(document.documentElement.scrollTop+
+    (document.documentElement.clientHeight-this.offsetHeight)));
+}
+
+#footer ul {
+  list-style-type: none;
+  vertical-align: center;
+}
+
+#footer li {
+  display: inline;
+  color: #666666;
+  font-size: 13px;
+  margin: 12px;
+  vertical-align: center;
+}
+
+#left {
+  float: left;
+  display: inline;
+  vertical-align: center;
+}
+
+#right {
+  float: right;
+  display: inline;
+  margin-right:25px;
+  vertical-align: center;
+}
