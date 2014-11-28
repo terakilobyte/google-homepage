@@ -21,6 +21,7 @@
   font-family: Sans-serif;
   font-size: .8em;
   vertical-align: center;
+  opacity: .5;
 }
 
 
@@ -33,7 +34,7 @@
 }
 
 
-#header a.hover {
+#header a:hover {
   text-decoration: underline;
 }
 
